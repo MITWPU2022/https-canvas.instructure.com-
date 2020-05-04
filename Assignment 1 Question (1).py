@@ -152,6 +152,17 @@ print(((4/3)*3.1415926535897931)*6**3)
 
 #output of Q1 (solution approach 1)
 print(list(input().split(",")))
+# In[14]:
+
+
+#output of Q1 (solution approach 2)
+i=input().split(",")
+
+l=[]
+for k in i:
+    o=int(k)
+    l.append(o)
+l
 
 #Task 2 Q2 Create the below pattern using nested for loop in Python.
 *
